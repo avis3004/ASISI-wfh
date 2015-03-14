@@ -156,7 +156,7 @@ include 'form_header.php';
 			    <input type="hidden" name="form_id" value="941864" />
 			    
 				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit"/>
-				<a href="../startfile.php">
+				<a href="index.php">
                                     <input type="button" name="back" value="Back to home"/></a>
 		</li>
 			</ul>

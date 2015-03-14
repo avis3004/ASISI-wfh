@@ -46,7 +46,7 @@ if($RefernceNumQueryCount ==1)
 //	echo $FetchedReferenceNo;
 }
 echo "<BR>";
-echo "<a href='/avis9789979734/finalmudichurpanchayat/startfile.php' target = '_top'>Back to main page</a>";
+echo "<a href='index.php' target = '_top'>Back to main page</a>";
 //SendSMS($ContactNumber,$ComplaintDesc);
 SendSMSGateway($DefaultContact,$SMSText,$UserPhoneNo);
 }

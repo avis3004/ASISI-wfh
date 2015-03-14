@@ -232,7 +232,7 @@
 			    <input type="hidden" name="form_id" value="947102" />
 			    
 				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-                <a href='startfile.php' target = '_top'> <input type="button" name="back" value="Back to home"/></a>
+                <a href='index.php' target = '_top'> <input type="button" name="back" value="Back to home"/></a>
 
 				
                                
