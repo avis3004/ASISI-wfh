@@ -94,7 +94,7 @@
             <div class="nav">
             <div id="navbar">
                 <ul>
-                    <li><a href="startfile.php">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li>
                 <li><a href="">MY PANCHAYAT</a>
                  <ul>
                 <li><a href="about.php">General particulars</a></li>    

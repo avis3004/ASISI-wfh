@@ -37,12 +37,12 @@ if($count==1){
   $_SESSION['start'] = time(); // Taking now logged in time.
             // Ending a session in 30 minutes from the starting time.
   $_SESSION['expire'] = $_SESSION['start'] + (15*60);
- header("location:startfile.php");
+ header("location:index.php");
 }
 else {
 echo "<script>
 alert('wrong username or password!!');
-window.location.href='startfile.php';
+window.location.href='index.php';
 </script>"; 
 }
 ob_end_flush();
