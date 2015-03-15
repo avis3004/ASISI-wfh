@@ -20,7 +20,7 @@ $LoggedinUser= $_SESSION["Uid"];
 $RandomNumber = rand(0,1000000);
 //date_default_timezone_set();
 date_default_timezone_set('Asia/Calcutta');
-$CurrentTime = date('m/d/y h:i:s');
+$CurrentTime = date('y-m-d h:i:s');
 $ComplaintStatus = 'New';
 $sql="INSERT INTO $tbl_name(ComplaintType, ComplaintDateDD, ComplaintDateMM,ComplaintDateYYYY,ComplaintDesc, ContactPersonName,ContactNumber,WardNumber,StreetName,RandomNumber,CurrentTime,ComplaintStatus,LoggedinUser)VALUES('$ComplaintType','$ComplaintDateDD','$ComplaintDateMM','$ComplaintDateYYYY','$ComplaintDesc','$ContactPersonName','$ContactNumber','$WardNumber','$StreetName','$RandomNumber','$CurrentTime','$ComplaintStatus','$LoggedinUser')";
 //echo $sql;
@@ -43,7 +43,7 @@ if($RefernceNumQueryCount ==1)
 	$ReferenceRow = mysql_fetch_assoc($RefernceNumQueryResult);
 	$FetchedReferenceNo = $ReferenceRow['ComplaintRefId'];
 	$SMSText = "A Complaint has been Registered with Reference Number - " . $FetchedReferenceNo;
-//	echo $FetchedReferenceNo;
+	//echo $FetchedReferenceNo;
 }
 echo "<BR>";
 echo "<a href='index.php' target = '_top'>Back to main page</a>";

@@ -166,7 +166,7 @@
 		}
 		}
 		};
-		xmlhttp.open("GET","/avis9789979734/finalmudichurpanchayat/WardResponse.php?WardNumber="+encodeURIComponent(WardNumber),true);
+		xmlhttp.open("GET","/ASISI-wfh/finalmudichurpanchayat/WardResponse.php?WardNumber="+encodeURIComponent(WardNumber),true);
 		xmlhttp.send();
 		}
 		};
