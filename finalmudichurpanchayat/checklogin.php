@@ -2,9 +2,9 @@
 ini_set("error_reporting", E_ALL & ~E_DEPRECATED);
 ob_start();
 session_start();
-$host="208.91.198.197:3306"; // Host name 
-$username="mpanchayat"; // Mysql username 
-$password="Mudichur@123"; // Mysql password 
+$host="localhost"; // Host name 
+$username="root"; // Mysql username 
+$password=""; // Mysql password 
 $db_name="panchayat"; // Database name 
 $tbl_name="registration"; // Table name 
 
