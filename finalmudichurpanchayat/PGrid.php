@@ -3,12 +3,12 @@
 include_once("config.php");
 
 // set up DB 
-mysql_connect('localhost','root','');
+mysql_connect('208.91.198.197:3306','mpanchayat','Mudichur@123');
 mysql_select_db(PHPGRID_DBNAME); 
 
 // include and create object 
-include(PHPGRID_LIBPATH."inc/jqgrid_dist.php"); 
-
+//include(PHPGRID_LIBPATH."inc".DIRECTORY_SEPARATOR."jqgrid_dist.php");   
+include("C:/wamp/www/ASISI-wfh/finalmudichurpanchayat/lib/inc/jqgrid_dist.php");
 // you can customize your own columns ... 
 $col = array(); 
 $col["title"] = "ComplaintRefNo"; 

@@ -2,9 +2,9 @@
 ini_set("error_reporting", E_ALL & ~E_DEPRECATED);
 ob_start();
 session_start();
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password=""; // Mysql password 
+$host="208.91.198.197:3306"; // Host name 
+$username="mpanchayat"; // Mysql username 
+$password="Mudichur@123"; // Mysql password 
 $db_name="panchayat"; // Database name 
 $tbl_name="registration"; // Table name 
 
@@ -32,7 +32,7 @@ if($count==1){
   $_SESSION["usertype"] = $row["UserType"]; 
   $_SESSION["username"] = $row["FirstName"];
   $_SESSION["Uid"] = $row["Username"];
-  echo $row[Username];
+//  echo $row[Username];
 // Register $myusername, $mypassword and redirect to file "login_success.php"
   $_SESSION['start'] = time(); // Taking now logged in time.
             // Ending a session in 30 minutes from the starting time.
