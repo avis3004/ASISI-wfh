@@ -1,16 +1,3 @@
-/*  Copyright Mihai Bazon, 2002-2005  |  www.bazon.net/mishoo
- * -----------------------------------------------------------
- *
- * The DHTML Calendar, version 1.0 "It is happening again"
- *
- * Details and latest version at:
- * www.dynarch.com/projects/calendar
- *
- * This script is developed by Dynarch.com.  Visit us at www.dynarch.com.
- *
- * This script is distributed under the GNU Lesser General Public License.
- * Read the entire license text here: http://www.gnu.org/licenses/lgpl.html
- */
 
 // $Id: calendar.js,v 1.51 2005/03/07 16:44:31 mishoo Exp $
 
@@ -769,7 +756,7 @@ Calendar.prototype.create = function (_par) {
 	(this.isPopup) && --title_length;
 	(this.weekNumbers) && ++title_length;
 
-	hh("?", 1, 400).ttip = Calendar._TT["INFO"];
+	//hh("?", 1, 400).ttip = Calendar._TT["INFO"];
 	this.title = hh("", title_length, 300);
 	this.title.className = "title";
 	if (this.isPopup) {
@@ -1856,7 +1843,7 @@ Calendar._SMN = new Array
 
 // tooltips
 Calendar._TT = {};
-Calendar._TT["INFO"] = "About the Calendar";
+/*Calendar._TT["INFO"] = "About the Calendar";
 
 Calendar._TT["ABOUT"] =
 "DHTML Date/Time Selector\n" +
@@ -1872,7 +1859,7 @@ Calendar._TT["ABOUT_TIME"] = "\n\n" +
 "Time selection:\n" +
 "- Click on any of the time parts to increase it\n" +
 "- or Shift-click to decrease it\n" +
-"- or click and drag for faster selection.";
+"- or click and drag for faster selection.";*/
 
 Calendar._TT["PREV_YEAR"] = "Prev. Year (Hold for Menu)";
 Calendar._TT["PREV_MONTH"] = "Prev. Month (Hold for Menu)";
