@@ -1,6 +1,7 @@
 <?php  
 // include db config 
 include_once("config.php");
+ini_set("error_reporting", E_ALL & ~E_DEPRECATED);
 
 // set up DB 
 mysql_connect('208.91.198.197:3306','mpanchayat','Mudichur@123');
@@ -114,7 +115,7 @@ include 'header.php';
     <script src="/avis9789979734/finalmudichurpanchayat/lib/js/jqgrid/js/jquery.jqGrid.min.js" type="text/javascript"></script>     
     <script src="/avis9789979734/finalmudichurpanchayat/lib/js/themes/jquery-ui.custom.min.js" type="text/javascript"></script> 
 </he
-</head> 
+></head> 
 <body> 
     <div style="margin:10px"> 
    
