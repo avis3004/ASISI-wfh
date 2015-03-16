@@ -129,6 +129,7 @@ include 'form_header.php';
 		{
 
 			document.getElementById("status").innerHTML="<img src='/ASISI-wfh/finalmudichurpanchayat/NotFound.jpg' width='16' height='16'>";	
+			document.getElementById("saveForm").disabled = "true";
 		}
 		}
 		};
