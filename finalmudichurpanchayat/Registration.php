@@ -123,6 +123,7 @@ include 'form_header.php';
 		if (AjaxResponse == 'Ok')
 		{
 			document.getElementById("status").innerHTML="<img src='/ASISI-wfh/finalmudichurpanchayat/tick.gif' width='16' height='16'>";
+			document.getElementById("saveForm").disabled = "false";
 			
 		}
 		else if (AjaxResponse == 'Not Ok')
