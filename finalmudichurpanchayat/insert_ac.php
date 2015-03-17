@@ -36,7 +36,7 @@ $result=mysql_query($sql);
 if($result){
 echo "Successful";
 echo "<BR>";
-echo "<a href='/avis9789979734/finalmudichurpanchayat/startfile.php'>Back to Home</a>";
+echo "<a href='index.php'>Back to Home</a>";
 }
 
 else {

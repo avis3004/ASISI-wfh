@@ -102,7 +102,7 @@ include 'form_header.php';
 		document.getElementById("element_7").onchange = function() {
 		var xmlhttp;
 		var uname=document.getElementById("element_7");
-		document.getElementById("status").innerHTML = "<img src='/ASISI-wfh/finalmudichurpanchayat/loader.gif' width='16' height='16'>"
+		document.getElementById("status").innerHTML = "<img src='loader.gif' width='16' height='16'>"
 		if (uname.value != "")
 		{
 		if (window.XMLHttpRequest)
@@ -122,19 +122,19 @@ include 'form_header.php';
 		AjaxResponse = xmlhttp.responseText;
 		if (AjaxResponse == 'Ok')
 		{
-			document.getElementById("status").innerHTML="<img src='/ASISI-wfh/finalmudichurpanchayat/tick.gif' width='16' height='16'>";
+			document.getElementById("status").innerHTML="<img src='tick.gif' width='16' height='16'>";
 			document.getElementById("saveForm").disabled = "false";
 			
 		}
 		else if (AjaxResponse == 'Not Ok')
 		{
 
-			document.getElementById("status").innerHTML="<img src='/ASISI-wfh/finalmudichurpanchayat/NotFound.jpg' width='16' height='16'>";	
+			document.getElementById("status").innerHTML="<img src='NotFound.jpg' width='16' height='16'>";	
 			document.getElementById("saveForm").disabled = "true";
 		}
 		}
 		};
-		xmlhttp.open("GET","/ASISI-wfh/finalmudichurpanchayat/uname_availability.php?uname="+encodeURIComponent(uname.value),true);
+		xmlhttp.open("GET","uname_availability.php?uname="+encodeURIComponent(uname.value),true);
 		xmlhttp.send();
 		}
 		};
