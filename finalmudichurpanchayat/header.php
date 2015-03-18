@@ -101,7 +101,7 @@
                 <li><a href="electbody.php">Elected body setup</a></li>   
                 <li><a href="officesetup.php">Official setup</a></li>      
                 <li><a href="districtprofile.php">District profile</a></li>
-                <li><a href="">Panchayat profile</a></li>   
+                <li><a href="panchayatprofile.php">Panchayat profile</a></li>   
                  </ul></li>
                 <li><a href="">DEPARTMENTS</a>
                     <ul>

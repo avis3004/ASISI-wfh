@@ -8,7 +8,7 @@
     </head>
     <body>
         <footer class="copyright">
-           <p align="right">  Copyright@2015 - Mudichur panchayat.</p>
+           <p align="right"> Mudichur panchayat.</p>
                 
         </footer>
 

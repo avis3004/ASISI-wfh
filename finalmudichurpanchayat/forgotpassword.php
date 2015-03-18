@@ -12,12 +12,12 @@ if (isset($_POST['username'])){
 	
         $rows=mysql_fetch_array($result);
         $pass  =  $rows['Password'];//FETCHING PASS
-        echo "your pass is ::".($pass)."";
+        echo "your password is ::".($pass)."";
 		//$email=$rows['Email'];//Fwetching Email
         $to = $rows['Email'];
-        echo "your email is ::".$to;
+        echo "<br>your email is ::".$to;
         //Details for sending E-mail
-		 $to = "sivaganeshvbe@gmail.com";
+		// $to = "sivaganeshvbe@gmail.com";
    $subject = "This is subject";
    $message = "This is simple text message.";
    $header = "From:sivaganeshvbe@gmail.com \r\n";
