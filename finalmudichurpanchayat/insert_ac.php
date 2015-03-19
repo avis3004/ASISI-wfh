@@ -43,7 +43,10 @@ window.location.href='index.php';
 }
 
 else {
-echo "ERROR";
+echo "<script>
+alert('Sorry, your registration was unsuccessful');
+window.location.href='Registration.php';
+</script>"; 
 }
 ?> 
 

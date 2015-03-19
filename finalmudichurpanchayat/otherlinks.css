@@ -104,21 +104,14 @@ footer {
                  clear: both;
                  margin-bottom: 0;
                  background-color: #083a77;
-                list-style-type: symbols;
-                color:#ffffff;
+                 color:#ffffff;
                 font-size: 16px;
-               	 width:100%;
-                margin-left:0px;
+               	 margin-left:0px;
                padding-bottom:0px;
                 bottom:0px;
                  
            }
-		   .footerbase{
-		position:relative;
-		right:0px; 
-		 }
-		   
-
+		  
 .copyright p{
 text-align:left;
 }
@@ -551,4 +544,17 @@ a:hover {
 }
 p {
 	margin: 0 0 10px;
+}
+/*table*/
+
+table, td, th {
+    border: 1px solid green;
+}
+td {
+    background-color: #083a77;
+    color: white;
+}
+th {
+background-color: #ffffff;
+color:#000000;
 }

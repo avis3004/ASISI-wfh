@@ -84,9 +84,7 @@
       </div>                     
     </li>
       <li id="signup">
-        <a href="Registration.php">Register</a>    
-      </li>
-
+        <a href="Registration.php">Register</a>      </li>
   </ul>
  </nav>
 </div>
@@ -97,7 +95,7 @@
                     <li><a href="index.php">HOME</a></li>
                 <li><a href="">MY PANCHAYAT</a>
                  <ul>
-                <li><a href="about.php">General particulars</a></li>    
+                <li><a href="generalparticulars.php">General particulars</a></li>    
                 <li><a href="electbody.php">Elected body setup</a></li>   
                 <li><a href="officesetup.php">Official setup</a></li>      
                 <li><a href="districtprofile.php">District profile</a></li>

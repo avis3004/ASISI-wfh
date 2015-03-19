@@ -82,10 +82,11 @@ setInterval('cycleImages()', 1000);
                         the highest authorities at the Secretariat at Chennai.
                         The Panchayat accounts are fully computerized.
                     </p>
-                  <br>
+					       <br>
         </section>
         <aside>
-            <div class="sidebar1">
+		
+            <section class="sidebar1">
                 <div class="bline">
                     <code><h1><center>NEWS</center></h1></code></div>
 				<?php
@@ -114,11 +115,11 @@ setInterval('cycleImages()', 1000);
 			?>       
 			</div>	        
               </marquee>
-              </div> </div>
+              </div> </section>
 
 
 
-                <div class="sidebar2">
+                <section class="sidebar2">
                 <div class="bline"><code><h1><center>Advertisement corner</center></h1></code></div>
 			       <div class="adv">
 				        <div id="cycler">
@@ -130,7 +131,7 @@ setInterval('cycleImages()', 1000);
 
 </div>
              </div>
-              </div>						
+              </section>						
 							
         </aside>
   <?php
