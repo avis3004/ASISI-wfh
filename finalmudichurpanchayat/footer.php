@@ -7,10 +7,11 @@
 
     </head>
     <body>
-        <footer class="copyright">
-           <p align="right"> Mudichur panchayat.</p>
+         <footer class="copyright">
+<pre>Developed by Null point Inc. 9789979734                                                                                                Mudichur panchayat.</pre>
                 
         </footer>
 
+        
     </body>
 </html>

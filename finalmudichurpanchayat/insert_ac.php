@@ -14,7 +14,7 @@ elseif($Gender == 2)
 {
 	$Gender = "Female";
 }
-echo $Gender;
+//echo $Gender;
 //$Gender = "Male";
 $StreetAddress=$_POST['element_2_1'];
 $AddressLine2=$_POST['element_2_2'];
@@ -31,12 +31,15 @@ $UserType = "User";
 $sql="INSERT INTO $tbl_name(FirstName, LastName, Gender, StreetAddress, Line2, City,State, Zip, Country, Phone, Email, Username, Password, UserType)VALUES('$FirstName', '$LastName', '$Gender','$StreetAddress','$AddressLine2','$City','$State',$Postal,'$Country','$Phone','$Email','$username','$Password','$UserType')";
 //echo $sql;
 $result=mysql_query($sql);
-
 // if successfully insert data into database, displays message "Successful". 
 if($result){
-echo "Successful";
-echo "<BR>";
-echo "<a href='index.php'>Back to Home</a>";
+echo "<script>
+alert('Congratulations! You are successfully registered');
+window.location.href='index.php';
+</script>"; 
+//echo "Successful";
+//echo "<BR>";
+//echo "<a href='index.php'>Back to Home</a>";
 }
 
 else {
