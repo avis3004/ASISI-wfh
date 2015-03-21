@@ -7,27 +7,57 @@ include 'header.php';
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>General particulars</title>
 <link href="otherlinks.css" rel="stylesheet"type="text/css">
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="C:\wamp\www\avis9789979734\finalmudichurpanchayat\lib\js\jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
 
 </head>
 
 <body>
-<section>
+ <section>
 <center>
-<table width="952" border="0" >
-<font color="#006600">
- <tr  >
-    <th height="40" colspan="2"  border=""><center><h1>MUDICHUR PANCHAYAT</h1></center></th>
-    </tr>
-	<tr bgcolor="#CCCCCC" >
-    <th height="40" colspan="2"><center><h4>ST. THOMAS MOUNT PANCHAYAT UNION</h4></center></th>
-    </tr>
-	<tr bgcolor="#CCCCCC" >
-    <th height="40" colspan="2"><center><h4>KANCHEEPURAM DISTRICT</h4></center></th>
+<table class="ttitle" width="952" height="40" >
+<font color="#006600" >
+ <tr>
+     <th height="" colspan="2"><h1>MUDICHUR PANCHAYAT</h1>
+	<h4>ST. THOMAS MOUNT PANCHAYAT UNION</h4>
+	<h4>KANCHEEPURAM DISTRICT</h4></th>
+   </th>
+
     </tr>
 </font></table>
-<table width="952" height="485" border="6" >
-  <tr bgcolor="#CCCCCC" >
-    <th height="40" colspan="2"><center><b>General information about the Village Panchayat</b></center></th>
+<table class="particulars" width="952" height="485" border="6" >
+  <tr>
+    <th height="40" colspan="2" bgcolor="#000000"><center><b>General information about the Village Panchayat</b></center></th>
     </tr>
   <tr>
     <td width="395"><strong>1. Name of the Panchayat</strong></td>
@@ -125,6 +155,9 @@ include 'header.php';
   </tr>
 </table>
 </center><br /><br />
+<p id="back-top">
+		<a href="#top"><span></span>Back to Top</a>
+	</p>
 </section>
 </body>
 </html>

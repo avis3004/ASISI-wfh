@@ -65,15 +65,13 @@ setInterval('cycleImages()', 4000);
     <body>
 	<div id="topbar"></div>
         <aside class="leftbar">
-           
-   <div id="cycler">
-       <img class="active" src="images/kanchipuram images/kailasanathar_temple.jpg"height="300px"width="300px"z-index="+1"  />
-       <img src="images/kanchipuram images/bannar1.jpg" height="300px"width="300px" z-index="+1"/>	
-       <img src="images/kanchipuram images/bannar2.jpg" height="300px"width="300px" z-index="+1"/>	
-       <img src="images/kanchipuram images/bannar3.jpg" height="300px"width="300px"  z-index="+1"/>		
-       <img src="images/kanchipuram images/bannar7.jpg" height="300px"width="300px"  z-index="+1"/>		
-       <img src="images/kanchipuram images/kanchi-kamakshi-temple-kanchipuram.jpg" height="300px"width="300px"z-index="+1"  />		
-
+    <div id="cycler">
+       <img class="active" src="images/my panchayat photos/3.jpg"height="300px"width="300px"z-index="+1"  />
+       <img src="images/my panchayat photos/3.jpg" height="300px"width="300px" z-index="+1"/>	
+       <img src="images/my panchayat photos/4.jpg" height="300px"width="300px" z-index="+1"/>	
+       <img src="images/my panchayat photos/5.jpg" height="300px"width="300px"  z-index="+1"/>		
+       <img src="images/my panchayat photos/8.jpg" height="300px"width="300px"z-index="+1"  />	
+	   <img src="images/my panchayat photos/9.jpg" height="300px"width="300px"z-index="+1"  />	
 </div>
  
        
@@ -83,10 +81,8 @@ setInterval('cycleImages()', 4000);
 
 
             <h1><center><font size="+3">MUDICHUR PANCHAYAT</font></center></h1>
-        <h2><center><font color="#000000"	>ST. THOMAS MOUNT PANCHAYAT UNION</font></center></h2>
-		 <h2><center><font color="#000000">KANCHEEPURAM DISTRICT</font></center></h2>
-		  <h3><font color="#330099" size="+2">Best performing Village Panchayat</font></h3>
-                    <p align="justify"><b> History of the Panchayat</b></p>
+        <h2><center><font color="#000000">History of the Panchayat</font></center></h2>
+		<center><img src="images/panchayatphoto.jpg" height="300px"width="500px"></center>
 					<p align="justify">   
 					 This Mudichur village is Gr-I Panchayat in St. Thomas Mount block of Tambaram revenue Taluk in Kancheepuram District.
 					  This Panchayat is situated in the west side of GST Road at a distance of 5 kms and can be termed as an ancient famous village.
@@ -101,16 +97,34 @@ setInterval('cycleImages()', 4000);
                            This Mudichur village is comprising of agricultural lands and due to the extension of residential colonies, the density is
 						    increasing and the people were living in a free atmosphere.This Panchayat spread eagled in to an extent of 10 sq.kms with 4636 houses, 
 							58 apartments, and 386 streets with a population of 15,438 persons.	</p>			
-					  
-                    <div><center>
-                            <img src="images/mudichur data 1.jpeg"height="1100px"width="800px">
-							<img src="images/mudichur data 2.jpeg"height="1100px"width="800px">
-							</center>
-            </div>
-			 <h4>News on articles</h4>
-					 <ul>
-					 <a><li>	
-                     
+					  <div class="panchayatlist">
+					  <ul>
+					    <li>Mudichur got the Best Panchayat Award  from Hon. Prim minister 
+                            For the year 1998</li>
+                        <li> Mudichur got the Best Panchayat Award  from Govt. of Karnataka  
+                              State For the year 1999</li>
+                        <li>The project attracts visitors from various spectrum that includes Hon. Ministers, District collectors, UNICEF Team, I.A.S. Officers, Panchayat                            representatives all over the country & international visitors.</li>
+                        <li>Mudichur got the prestigious Nirmal Gram Puraskar Award from the Govt. of India for the year 2007.</li>
+                        <li>The Mudichur Panchayat President was part of the team visited Sweden in 2008 for studying the best practices in SWM at Sweden.</li>
+                        <li>Mudichur project received the Clean Village Award for the year 2012 from the Govt. of Tamil Nadu.</li>
+						</ul></div>
+						
+						<h3><b><u><font color="#000066">Targets to be achieved by the Panchayats</font></u></b></h3>
+                         <ol type="1">
+						  <li>Sanitation in all the houses</li>
+                          <li>Solid waste management scheme</li>
+						  <li>Education for all</li>
+                          <li>Purified drinking water to all houses</li>
+                          <li>The village without Child labour</li>
+                          <li>100% road facility</li>
+                          <li>100% street lights</li>
+                          <li>Village without a single hut</li>
+                          <li>Children with good nutrition</li>
+                          <li>Rain water harvest system in all houses.</li>
+                          <li>Hi-Tech (e-Panchayat) Panchayat</li>
+                          <li>The village with 100% sanitation</li>
+                        </ol>                   
+                     <br><br>
 					<p id="back-top">
 		<a href="#top"><span></span>Back to Top</a>
 	</p>

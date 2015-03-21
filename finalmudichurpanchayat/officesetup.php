@@ -9,7 +9,7 @@ include 'header.php';
 <link rel="stylesheet" href="first.css">
 
 <title>
-Elected body setup       </title>
+official body setup       </title>
         <script type="text/javascript" src="basicjs.js">
         </script>   
         <link href="otherlinks.css" rel="stylesheet"type="text/css">

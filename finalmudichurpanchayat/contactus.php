@@ -78,7 +78,7 @@ include 'header.php';
     <td valign="top"><p><strong>7402606001</strong></p></td>
     <td valign="top"><p>&nbsp;&nbsp;&nbsp;<img width="130" height="150" src="images/cphoto2.png" /></strong></p></td>
   </tr>
-</table>
+</table><br /><br />
 </center></section>
 </body>
 </html>

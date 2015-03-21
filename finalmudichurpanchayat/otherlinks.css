@@ -141,7 +141,7 @@ top:50px;
 }
 .content h3{
     color:#739AC5;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 1px 1px #000000;
 }
 .content h1 {
     color: green;
@@ -547,14 +547,22 @@ p {
 }
 /*table*/
 
-table, td, th {
+.particulars td, th {
     border: 1px solid green;
 }
-td {
-    background-color: #083a77;
-    color: white;
+.particulars td {
+    background-color:  white;
+    color:#083a77;
 }
-th {
-background-color: #ffffff;
+.particulars th {
+background-color:  #cc9900;
 color:#000000;
+}
+.ttitle th{
+color:#003300;
+border:0px;
+}
+/*panchayat profile*/
+.panchayatlist{
+color:#CC0033;
 }
