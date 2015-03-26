@@ -49,8 +49,8 @@ $(document).ready(function(){
                 <a href="stategovern.php"><li>
                      STATE GOVT SCHEMES
             </li></a>
-                 <a href=""><li>
-                    PANCHAYAT   
+                 <a href="panchayatschemes.php"><li>
+                    PANCHAYAT SCHEMES  
             </li></a>
                  <a href=""><li>
                     NGO'S

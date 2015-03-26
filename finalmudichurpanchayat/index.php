@@ -26,22 +26,6 @@ include 'database_connection.php';
 		
 		<!--slideshow-->
 		
-<script type="text/javascript">
-function cycleImages(){
-      var $active = $('#cycler .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
-
-$(document).ready(function(){
-// run every 7s
-setInterval('cycleImages()', 1000);
-})
-</script>
 
 <!--slideshow-->
     </head>
@@ -51,15 +35,7 @@ setInterval('cycleImages()', 1000);
             <div id="wrapper">
 <div id="cycler">
                     <img class="active" src="img/mudichur images/DSC_1215.jpg" width="700" height="450" z-index="+1" />
-					<img src="img/mudichur images/DSC00132.jpg" width="700" height="450" z-index="+1" />
-					<img src="img/mudichur images/scan0035.jpg" width="700" height="450" z-index="+1" />
-					<img src="img/mudichur images/DSC_0025.jpg" width="700" height="450" z-index="+1" />
-     				<img src="img/mudichur images/DSC_0540.jpg" width="700" height="450" z-index="+1" />
-                    <img src="img/mudichur images/DSC_0961.jpg" width="700" height="450" z-index="+1"/>
-     				<img src="img/mudichur images/DSC_1645.jpg" width="700" height="450" z-index="+1"/>
-     				<img src="img/mudichur images/DSC_4269.jpg" width="700" height="450" z-index="+1" />
-     				<img src="img/mudichur images/DSC03689.jpg" width="700" height="450" z-index="+1" />
-                    <img src="img/mudichur images/scan0052.jpg" width="700" height="450" z-index="+1" />
+				
 </div>		
 	</div>       
          </section>

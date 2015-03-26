@@ -115,7 +115,7 @@
                         <ul>
                             <li><a href="centralgovern.php">Central Govt</a></li>
                             <li><a href="stategovern.php">State Govt</a></li>
-                            <li><a href="">Panchayat</a></li>
+                            <li><a href="panchayatschemes.php">Panchayat</a></li>
                             <li><a href="">NGO s</a></li>
                         </ul></li>
                         <li><a href="">RELATED LINKS</a>
