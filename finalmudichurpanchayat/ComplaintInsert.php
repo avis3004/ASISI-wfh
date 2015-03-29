@@ -58,7 +58,7 @@ function SendSMSGateway($ContactNumber,$ComplaintDesc,$UserPhoneNo)
 {
 //$url = "http://login.smsgatewayhub.com/smsapi/pushsms.aspx?user=ashok.jan31&pwd=505909&to=9043228888&sid=WEBSMS&msg=Complaint%20Registered%20Successfully%20for%20StreetLights&fl=0&gwid=2";
 $SanitizedMsg = trim(str_replace(' ','%20',$ComplaintDesc));
-$url = "http://login.smsgatewayhub.com/smsapi/pushsms.aspx?user=ashok.jan31&pwd=505909&to=$ContactNumber,$UserPhoneNo&sid=WEBSMS&msg=$SanitizedMsg&fl=0&gwid=2";
+$url = "http://login.smsgatewayhub.com/smsapi/pushsms.aspx?user=mudichurp&pwd=645905&to=$ContactNumber,$UserPhoneNo&sid=MUDRPT&msg=$SanitizedMsg&fl=0&gwid=2";
 echo $url;
 
 //SMS Code Comented to avoid triggering of SMS in production
