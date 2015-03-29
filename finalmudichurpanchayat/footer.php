@@ -7,7 +7,7 @@
 
     </head>
     <body>
-         <footer class="copyright">
+         <footer>
 <pre>Developed by Null point Inc. 9789979734                                                                                                Mudichur panchayat.</pre>
                 
         </footer>

@@ -111,10 +111,7 @@ footer {
                 bottom:0px;
                  
            }
-		  
-.copyright p{
-text-align:left;
-}
+
 section {
      display: block;    
     position: relative;
@@ -573,4 +570,8 @@ font-size:16px;
 .subimage{
 width:500px;
 height:350px;
+}
+.carousel-inner{
+width:700px;
+height:450px;
 }

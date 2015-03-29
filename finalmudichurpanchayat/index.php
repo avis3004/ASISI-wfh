@@ -2,43 +2,65 @@
 include 'header.php';
 include 'database_connection.php';
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Mudichur panchayat</title>
         <meta charset="UTF-8">
-        <link href="basic.css" rel="stylesheet"type="text/css">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link href="basic.css" rel="stylesheet"type="text/css">
         <link href="newcss.css" rel="stylesheet" type="text/css">
 		 <link href="otherlinks.css"rel="stylesheet"type="text/css">
-         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta http-equiv="imagetoolbar" content="no" />
-	
-   <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-	<!-- sliderman.js -->
-	<script type="text/javascript" src="js/sliderman.1.3.8.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/sliderman.css" />
-	<!-- /sliderman.js -->
-        <!--login-->
-        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-        <!--/login-->
-		
-		<!--slideshow-->
-		
-
-<!--slideshow-->
-    </head>
-    <body>
-        
-        <section class="slideshow">
-            <div id="wrapper">
-<div id="cycler">
-                    <img class="active" src="img/mudichur images/DSC_1215.jpg" width="700" height="450" z-index="+1" />
-				
-</div>		
-	</div>       
-         </section>
+	  </head>
+	  <body>
+	  <section class="slideshow">
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/mudichur images/DSC_1215.jpg" width="700" height="450"alt="...">
+      <div class="carousel-caption">
+          <h3>Grama sabha</h3>
+      </div>
+    </div>
+    <div class="item">
+       <img src="img/mudichur images/DSC_1645.jpg" width="700" height="450"alt="...">
+      <div class="carousel-caption">
+          <h3>Women self development</h3>
+      </div>
+    </div>
+	 <div class="item">
+       <img src="img/mudichur images/DSC_0487.jpg" width="700" height="450"alt="...">
+      <div class="carousel-caption">
+          <h3>Women self development</h3>
+      </div>
+    </div>
+	 <div class="item">
+       <img src="img/mudichur images/DSC_4269.jpg" width="700" height="450"alt="...">
+      <div class="carousel-caption">
+          <h3>Women self development</h3>
+      </div>
+    </div>
+    <div class="item">
+       <img src="img/mudichur images/scan0035.jpg" width="700" height="450"alt="...">
+      <div class="carousel-caption">
+          <h3>awareness program</h3>
+      </div>
+    </div>
+  </div>
+       </section>
        
             
        
@@ -91,7 +113,7 @@ include 'database_connection.php';
 			?>       
 			</div>	        
               </marquee>
-              </div> </section>
+              </section>
 
 
 
