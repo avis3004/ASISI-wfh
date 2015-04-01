@@ -21,13 +21,7 @@ include 'header.php';
 	 </td>
   </tr>
   <tr>
-    <td bgcolor="#CCCCCC">
-    <h2> <center>Gallery upload <img src="images/upload.png" width="90" height="95" /></center></h2> 
-        <center>
-	<?php
-			include 'GalleryUpload.php';
-			?>
-            </center></td>
+    
     <td bgcolor="#CCCCCC">
 	<h3>INSERT NEWSFEED</h3>
 	<form action="newsinsert.php" method="post">
@@ -36,7 +30,21 @@ include 'header.php';
    	<input type="submit" />
 	</form></td>
   
-  </tr>
+  
+   <td bgcolor="#CCCCCC">
+	<h3>SMS</h3>
+	<p><label>SMS pending to send</label><input type="text" /></p>
+	<p><label>total SMS available</label><input type="text" /></p>
+  	</form></td>
+	</tr>
+	<tr>
+	<td colspan="2" bgcolor="#CCCCCC">
+    <h2> <center>Gallery upload <img src="images/upload.png" width="90" height="95" /></center></h2> 
+        <center>
+	<?php
+			include 'GalleryUpload.php';
+			?>
+            </center></td>
 </table>
 
 </section>

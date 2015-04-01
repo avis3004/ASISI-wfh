@@ -14,7 +14,7 @@ include 'header.php';
 <body>
 <section>
 <center>
-  <img src="images/contactus.jpg" width="995" height="154" />
+  <img src="images/contact_button.png" width="995" height="154" />
   <table width="996" border="1" cellpadding="0" cellspacing="0">
   <tr>
     <td width="276" valign="top"><p><strong>Name&nbsp; &amp; Designation</strong></p></td>
