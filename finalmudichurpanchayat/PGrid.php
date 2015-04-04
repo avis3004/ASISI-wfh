@@ -96,9 +96,6 @@ $g->table = "complaints";
 
 $g->set_columns($cols,true); 
 $out = $g->render("list1"); 
-if(isset( $_SESSION["usertype"])) {
-
- if( $_SESSION["usertype"] == "Admin") { 
 
 ?> 
 <?php
@@ -128,15 +125,4 @@ include 'footer.php';
 ?>
 </body> 
 </html> 
-<?php }
-   else { 
-
-               echo  "Error - you should have admin access to this page";
-              
-   } 
-
-   } else { 
-
-               echo  "Error - you dont have access to this page";
-              
-   } ?>  
+ 
