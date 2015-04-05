@@ -1,6 +1,4 @@
-<?php
-include 'plainheader.php';
-?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,8 +11,12 @@ include 'plainheader.php';
 <script type="text/javascript" src="view.js"></script>
 <script type="text/javascript" src="calendar.js"></script>
 </head>
-<body id="main_body" >
-	
+<body>
+	<div>
+	<?php
+include 'plainheader.php';
+?>
+	</div>
 	<img id="top" src="top.png" alt="">
 	<div id="form_container">
 	

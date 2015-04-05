@@ -142,7 +142,7 @@
 								 <?php if(isset( $_SESSION["usertype"])){ ?>
                                  <li><a href="#">COMPLAINTS</a>
 								                  <ul>
-								                  <li><a href="ComplaintFrame.html">User Complaints</a></li>
+								                  <li><a href="Complaints.php">User Complaints</a></li>
                                   </li>
                                   </ul>
                                  <?php }?>

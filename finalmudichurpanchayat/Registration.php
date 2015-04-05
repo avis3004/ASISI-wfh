@@ -1,5 +1,5 @@
 <?php
-include 'form_header.php';
+include 'header.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,7 +16,7 @@ include 'form_header.php';
 	<img id="top" src="top.png" alt="">
 	<div id="form_container">
 	
-		<h1><a><centre>Mudichur Panchayat Registration Page</a></h1>
+	
 		<form id="form_941864" class="appnitro" method="post" action="insert_ac.php">
 					<div class="form_description">
 			<h2><center>Mudichur Panchayat Registration Page</center></h2>

@@ -111,7 +111,18 @@ footer {
                 bottom:0px;
                  
            }
-
+pre{
+                 position:relative;
+                 clear: both;
+                 margin-bottom: 0;
+                 background-color: #083a77;
+                 color:#ffffff;
+                font-size: 16px;
+               	 margin-left:0px;
+               padding-bottom:0px;
+                bottom:0px;
+                 
+           }
 section {
      display: block;    
     position: relative;
