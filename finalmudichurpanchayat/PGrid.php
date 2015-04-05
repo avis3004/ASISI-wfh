@@ -70,6 +70,13 @@ $col["editoptions"] = array("value"=>'Completed:Completed;Inprogress:Inprogress;
 $col["align"] = "center";
 $cols[] = $col;         
 
+$col = array(); 
+$col["title"] = "SMSSent"; // caption of column 
+$col["name"] = "SMSFlag"; // grid column name, must be exactly same as returned column-name from sql (tablefield or field-alias) 
+$col["width"] = "8";
+$col["editable"] = false;
+$col["align"] = "center";
+$cols[] = $col;
 
 $g = new jqgrid(); 
 
