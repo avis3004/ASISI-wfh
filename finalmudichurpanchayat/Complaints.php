@@ -253,7 +253,7 @@ include 'plainheader.php';
 <!--
 	function check_length(my_form)
 	{
-		maxLen = 30; // max number of characters allowed
+		maxLen = 500; // max number of characters allowed
 		if (my_form.element_5.value.length >= maxLen) {
 			// Alert message if maximum limit is reached. 
 			// If required Alert can be removed. 
@@ -265,7 +265,7 @@ include 'plainheader.php';
 			else{ // Maximum length not reached so update the value of element_5 counter
 				//my_form.CharacterCount.value = maxLen - my_form.element_5.value.length;
 				CharCounter = maxLen - my_form.element_5.value.length;				
-					document.getElementById("CharacterCount").innerHTML = "<i> <font color = brown>				Character Remaining is " + CharCounter + " out of 230 </font>";
+					document.getElementById("CharacterCount").innerHTML = "<i> <font color = brown>				Character Remaining is " + CharCounter + " out of 500 </font>";
 			}
 
 		}
