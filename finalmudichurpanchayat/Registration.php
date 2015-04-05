@@ -159,7 +159,7 @@ include 'header.php';
 			    
 				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit"/>
 				<a href="index.php">
-                                    <input type="button" name="back" value="Back to home"/></a>
+                                    <input type="button"  class="button_text"  name="back" value="Back to home"/></a>
 		</li>
 			</ul>
 		</form>	
@@ -186,7 +186,7 @@ include 'header.php';
 
 	<img id="bottom" src="bottom.png" alt="">	
 	<?php 
-        include 'form_footer.php';
+        include 'footer.php';
         ?>
 	</body>
 </html>

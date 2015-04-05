@@ -170,7 +170,7 @@ top:50px;
     color: #000000;
 }
 .leftbar li{
-  background: #3F6826;
+  background: #083a77;
   border-radius: 30px;
   border-color: #FFD700;
   color: #ffffff;
@@ -344,6 +344,7 @@ fieldset{
 }
 #inputs input {
   background: #f1f1f1;
+  color:#000000;
   padding: 9px 7px;
   margin: 0 0 5px 0;
   width: 300px;
@@ -586,4 +587,9 @@ height:350px;
 .carousel-inner{
 width:700px;
 height:450px;
+}
+.button_text{
+
+background: #083a77;
+color:#FFFFFF;
 }
