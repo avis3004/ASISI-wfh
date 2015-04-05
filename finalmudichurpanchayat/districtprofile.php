@@ -147,7 +147,7 @@ setInterval('cycleImages()', 4000);
                     <p class='plink' align='right'> <a href="http://www.kanchi.tn.nic.in/">For more information visit this page</a></p>
 					<p id="back-top">
 		<a href="#top"><span></span>Back to Top</a>
-	</p>
+	</p></br></br>
         </section>
 			
 <?php 

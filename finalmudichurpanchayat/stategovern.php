@@ -707,7 +707,7 @@ Rs.2.00 lakh each.  Between 2001 and 2004, all the Village Panchayats in the Sta
   <h2><a name=""></a></h2>
   <h2><a name=""></a></h2>
   
- 
+ </br></br>
 <p id="back-top">
 		<a href="#top"><span></span>Back to Top</a></p>
         </section>

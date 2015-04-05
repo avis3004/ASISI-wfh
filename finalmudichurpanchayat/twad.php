@@ -66,7 +66,7 @@ include 'header.php';
                         chlorinating the tanks.  Due to this the hygiene of the public is safeguarded.
                     </p>
                     <p align="right"> <a href="https://twad.tn.nic.in/twadonline/index.jsp"> TWAD Board INTEGRATED E-GOVERNANCE SYSTEM</a></p>
-                                       
+                      </br></br>                 
         </section>
 <?php 
         include 'footer.php';

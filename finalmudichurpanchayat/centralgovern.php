@@ -356,7 +356,8 @@ Pradhan Mantri Gram Sadak Yojana (PMGSY)
 </b></p>
 <p id="back-top">
 		<a href="#top"><span></span>Back to Top</a></p>
-        </section>
+		</ul>
+		</p></br></br>        </section>
 		
 <?php 
         include 'footer.php';

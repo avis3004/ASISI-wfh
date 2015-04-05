@@ -82,11 +82,10 @@ include 'database_connection.php';
                     </p>
 					       <br>
         </section>
-     
-		
+      
             <section class="sidebar1">
                 <div class="bline">
-                    <code><h1><center>NEWS</center></h1></code></div>
+                    <h5><center>NEWS</center></h5></div>
 				<?php
 				 $query=("SELECT newsContent FROM newsfeed ORDER BY newsDate DESC LIMIT 15");
   $rs_news = mysql_query($query) or die("Query to get data from news table failed: " . mysql_error());
@@ -114,11 +113,8 @@ include 'database_connection.php';
 			</div>	        
               </marquee>
               </section>
-
-
-
                 <section class="sidebar2">
-                <div class="bline"><h1><center>Advertisement corner</center></h1></div>
+                <div class="bline"><h5><center>Advertisement corner</center></h5></div>
 			       <div class="adv">
 				        <div id="cycler">
        <img class="active" src="images/kanchipuram images/kailasanathar_temple.jpg"height="300px"width="400px"z-index="+1"  />
