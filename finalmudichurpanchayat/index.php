@@ -82,7 +82,7 @@ include 'database_connection.php';
                     </p>
 					       <br>
         </section>
-        <aside>
+     
 		
             <section class="sidebar1">
                 <div class="bline">
@@ -118,7 +118,7 @@ include 'database_connection.php';
 
 
                 <section class="sidebar2">
-                <div class="bline"><code><h1><center>Advertisement corner</center></h1></code></div>
+                <div class="bline"><h1><center>Advertisement corner</center></h1></div>
 			       <div class="adv">
 				        <div id="cycler">
        <img class="active" src="images/kanchipuram images/kailasanathar_temple.jpg"height="300px"width="400px"z-index="+1"  />
@@ -131,7 +131,7 @@ include 'database_connection.php';
              </div>
               </section>						
 							
-        </aside>
+        
   <?php
         include 'footer.php';
         ?>

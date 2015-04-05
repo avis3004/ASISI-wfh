@@ -175,11 +175,12 @@ top:50px;
 .bline{
          position: absolute;
          width: 400px;;
-         height: 30px;
+         height: 130px;
          background-color: #083a77;
-         color: #ffffff;
+         color: #fffffa;
+		 font-size:6px;
         }
-.gline{
+		.gline{
          position: absolute;
          width: 1172px;
          height: 65px;
