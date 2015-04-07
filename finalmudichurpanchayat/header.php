@@ -151,9 +151,8 @@
 			    <li><a href="#">ADMIN</a>
 								<ul>
 								  <li><a href="http://localhost/ASISI-wfh/finalmudichurpanchayat/PGrid.PHP">Complaints view</a></li>
-						          <li><a href="edoc.php">Edit Documents</a></li>
-                                  <li><a href="#">Send SMS</a></li>
-                                </li> </ul>
+						          <li><a href="edoc.php">Admin Control Panel</a></li>
+                                 </li> </ul>
       <?php } }?>
           
 		   
