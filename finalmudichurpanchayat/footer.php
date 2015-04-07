@@ -8,7 +8,7 @@
     </head>
     <body>
          <footer>
-<pre>Developed by Null point Inc. 9789979734                                                                                                Mudichur panchayat.</pre>
+<pre>Developed by Null point Inc. 9789979734                                                                       Mudichurpanchayat.in</pre>
                 
         </footer>
 
