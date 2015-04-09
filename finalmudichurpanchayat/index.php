@@ -30,33 +30,34 @@ include 'database_connection.php';
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="img/mudichur images/DSC_1215.jpg" width="700" height="450"alt="...">
+      <img src="img/mudichur images/ss1.jpg" width="700" height="450"alt="...">
       <div class="carousel-caption">
           <h3>Grama sabha</h3>
       </div>
     </div>
     <div class="item">
-       <img src="img/mudichur images/DSC_1645.jpg" width="700" height="450"alt="...">
+       <img src="img/mudichur images/ss2.jpg" width="700" height="450"alt="...">
       <div class="carousel-caption">
           <h3>Women self development</h3>
       </div>
     </div>
 	 <div class="item">
-       <img src="img/mudichur images/DSC_0487.jpg" width="700" height="450"alt="...">
+       <img src="img/mudichur images/ss3.jpg" width="700" height="450"alt="...">
       <div class="carousel-caption">
-          <h3>Women self development</h3>
+          <h3>Mudichur panchayat</h3>
       </div>
     </div>
 	 <div class="item">
-       <img src="img/mudichur images/DSC_4269.jpg" width="700" height="450"alt="...">
+       <img src="img/mudichur images/ss4.jpg" width="700" height="450"alt="...">
       <div class="carousel-caption">
-          <h3>Women self development</h3>
+          <h3>Awareness program</h3>
       </div>
     </div>
+	 
     <div class="item">
-       <img src="img/mudichur images/scan0035.jpg" width="700" height="450"alt="...">
+       <img src="img/mudichur images/ss6.jpg" width="700" height="450"alt="...">
       <div class="carousel-caption">
-          <h3>awareness program</h3>
+          <h3>Global hand washing day</h3>
       </div>
     </div>
   </div>
