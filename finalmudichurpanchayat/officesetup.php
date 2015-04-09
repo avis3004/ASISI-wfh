@@ -19,7 +19,7 @@ official body setup       </title>
          
     <section class="content">
         <h1>OFFICIAL BODY SETUP</h1>
-        <img src="img/officesetup.png">
+        <img src="img/officebody.jpg">
         </br></br></br>
     </section>
 <?php 
