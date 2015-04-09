@@ -19,8 +19,8 @@ Elected body setup       </title>
          
     <section class="content">
         <h1>ELECTED BODY SETUP</h1>
-        <img src="images/electbody.png">
-        
+        <img src="images/electbody.jpg">
+        <br><br><br>
     </section>
 <?php 
         include 'footer.php';
