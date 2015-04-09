@@ -66,7 +66,7 @@ setInterval('cycleImages()', 4000);
 	<div id="topbar"></div>
         <aside class="leftbar">
     <div id="cycler">
-       <img class="active" src="images/my panchayat photos/3.jpg"height="300px"width="300px"z-index="+1"  />
+       <img class="active" src="images/my panchayat photos/1.jpg"height="300px"width="300px"z-index="+1"  />
        <img src="images/my panchayat photos/3.jpg" height="300px"width="300px" z-index="+1"/>	
        <img src="images/my panchayat photos/4.jpg" height="300px"width="300px" z-index="+1"/>	
        <img src="images/my panchayat photos/5.jpg" height="300px"width="300px"  z-index="+1"/>		
