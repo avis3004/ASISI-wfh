@@ -41,6 +41,8 @@
 }
 .nav li ul a {
     border:none;
+	
+
 }
 .nav li ul a:hover {
     background:#FFD700;
@@ -68,13 +70,7 @@
     -webkit-transform:perspective(400) rotate3d(0,0,0,0);
 }
 
-    body {
-       margin: 0;
-       padding: 0;
-       background: #EEE;
-       font: 10px/13px 'Lucida Sans',sans-serif;
-	   width:100%;
-    }
+   
     .wrap {
        overflow: hidden;
        margin: 10px;

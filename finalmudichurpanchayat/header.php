@@ -8,7 +8,7 @@
         <title>Mudichur panchayat</title>
         <meta charset="UTF-8" />
         <link href="otherlinks.css" rel="stylesheet"type="text/css" />
-		
+		<link href="newcss.css" rel="stylesheet"type="text/css" />
         
    <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -103,20 +103,20 @@
                  </ul></li>
                 <li><a href="">DEPARTMENTS</a>
                     <ul>
-                        <li><a href="">Rural Development</a></li>
+                        <li><a href="rural.php">Rural Development</a></li>
                         <li><a href="twad.php">TWAD</a></li>
-                        <li><a href="">Revenue</a></li>
-                        <li><a href="">Health</a></li>
-                        <li><a href="">Social Welfare</a></li>
-                        <li><a href="">Police</a></li>
-                        <li><a href="">Agriculture</a></li>
+                        <li><a href="revenue.php">Revenue</a></li>
+                        <li><a href="health.php">Health</a></li>
+                        <li><a href="social.php">Social Welfare</a></li>
+                        <li><a href="police.php">Police</a></li>
+                        <li><a href="agriculture.php">Agriculture</a></li>
                     </ul></li>
                     <li><a href="">SCHEMES</a>
                         <ul>
                             <li><a href="centralgovern.php">Central Govt</a></li>
                             <li><a href="stategovern.php">State Govt</a></li>
                             <li><a href="panchayatschemes.php">Panchayat</a></li>
-                            <li><a href="">NGO s</a></li>
+                            <li><a href="ngo.php">NGO s</a></li>
                         </ul></li>
                         <li><a href="">RELATED LINKS</a>
                             <ul>
@@ -158,7 +158,6 @@
 		   
 			<li><a href="contactus.php">CONTACT US</a></li>
 			</ul>
-            </section>
             </div>
         </header>
             </body>

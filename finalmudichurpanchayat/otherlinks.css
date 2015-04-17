@@ -109,8 +109,21 @@ footer {
                	 margin-left:0px;
                padding-bottom:0px;
                 bottom:0px;
+				height:40px;
                  
            }
+		   .by{
+position:relative;
+bottom:20px;
+left:20px;
+color:#000000;
+}
+.mp{
+position:relative;
+bottom:20px;
+left:50px;
+color:#000000;
+}
 pre{
                  position:relative;
                  clear: both;
@@ -169,6 +182,7 @@ top:50px;
     background-color: #cc9900;
     color: #000000;
 }
+
 .leftbar li{
   background: #083a77;
   border-radius: 30px;
