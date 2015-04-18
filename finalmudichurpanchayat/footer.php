@@ -8,8 +8,7 @@
     </head>
     <body>
          <footer>
-		 <section class="by">Developed by Null point Inc. 9789979734</section><section class="mp"> Mudichurpanchayat.in</section>
-<pre>Developed by Null point Inc. 9789979734 checking...........                                                                      Mudichurpanchayat.in</pre>
+		<p>Developed by Null point Inc. 9789979734<br>Mudichurpanchayat.in</p>
                 
         </footer>
 

@@ -18,7 +18,7 @@ include 'header.php';
   
 </head> 
 <body class="no-touch"> 
-  <section>
+  <section class="gallery">
   <div class="wrap">
     
     <!-- Define all of the tiles: -->

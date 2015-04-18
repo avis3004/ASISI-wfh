@@ -24,12 +24,12 @@ include 'database_connection.php';
              while ($row = mysql_fetch_assoc($gal_result))
                 {
 				
-				 echo ' <div class="image-zoom-container">;';
+				 echo ' <div>;';
 				  
                  //echo '<br>';
                   foreach ($row as $column) {
 			     
-				  echo '<div class="zoom-container">';
+				  echo '<div>';
 		          echo '<a href="#">';
 				 
                    // echo "<td>$column</td><br>";
@@ -59,12 +59,12 @@ include 'database_connection.php';
              while ($row = mysql_fetch_assoc($gal_result))
                 {
         
-         echo ' <div class="image-zoom-container">;';
+         echo ' <div>;';
           
                  //echo '<br>';
                   foreach ($row as $column) {
            
-          echo '<div class="zoom-container">';
+          echo '<div>';
               echo '<a href="#">';
          
                    // echo "<td>$column</td><br>";
@@ -94,12 +94,12 @@ include 'database_connection.php';
              while ($row = mysql_fetch_assoc($gal_result))
                 {
         
-         echo ' <div class="image-zoom-container">;';
+         echo ' <div>;';
           
                  //echo '<br>';
                   foreach ($row as $column) {
            
-          echo '<div class="zoom-container">';
+          echo '<div>';
               echo '<a href="#">';
          
                    // echo "<td>$column</td><br>";

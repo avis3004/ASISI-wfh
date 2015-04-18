@@ -14,6 +14,7 @@ include 'database_connection.php';
   <link href="basic.css" rel="stylesheet"type="text/css">
         <link href="newcss.css" rel="stylesheet" type="text/css">
 		 <link href="otherlinks.css"rel="stylesheet"type="text/css">
+		
 	  </head>
 	  <body>
 	  <section class="slideshow">

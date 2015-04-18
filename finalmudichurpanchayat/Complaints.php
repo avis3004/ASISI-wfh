@@ -7,7 +7,6 @@
 <title>Complaints Form</title>
 <link rel="stylesheet" type="text/css" href="view.css" media="all">
 <link rel="stylesheet" type="text/css" href="form_css" >
-
 <script type="text/javascript" src="view.js"></script>
 <script type="text/javascript" src="calendar.js"></script>
 </head>
@@ -175,39 +174,9 @@ include 'plainheader.php';
 		</script>
 		<li id="li_6">
 		<label class="description" for="element_6">Date of Complaint </label>
-		<!--<span>
-			<input id="element_6_1" name="element_6_1" class="element text" size="23" maxlength="2" value="" type="date"> 
-		</span>-->
-
-		<span>
-			<input id="element_6_1" name="element_6_1" class="element text" size="2" maxlength="2" value="" type="text"> /
-			<label for="element_6_1">DD</label>
-		</span>
-		<span>
-			<input id="element_6_2" name="element_6_2" class="element text" size="2" maxlength="2" value="" type="text"> /
-			<label for="element_6_2">MM</label>
-		</span>
-		<span>
-	 		<input id="element_6_3" name="element_6_3" class="element text" size="4" maxlength="4" value="" type="text">
-			<label for="element_6_3">YYYY</label>
-		</span>
-	<div id=caldate>
-		<span id="calendar_6">
-			<img id="cal_img_6" class="datepicker" src="calendar.gif" alt="Pick a date.">	
-		</span>
-		<script type="text/javascript">
-			Calendar.setup({
-			inputField	 : "element_6_3",
-			baseField    : "element_6",
-			displayArea  : "calendar_6",
-			button		 : "cal_img_6",
-			ifFormat	 : "%B %e, %Y",
-			onSelect	 : selectEuropeDate
-			});
-		</script>
-		 <div id=caldate>
-
-		</li>		<li id="li_5" >
+		<input type="date" />
+		</li>
+		<li id="li_5" >
 		<label class="description" for="element_5">Complaint Description </label>		
 		<div>
 			<textarea id="element_5" name="element_5" class="element textarea medium" onKeyPress=check_length(this.form); onKeyDown=check_length(this.form)></textarea> 
@@ -234,7 +203,8 @@ include 'plainheader.php';
 			    <input type="hidden" name="form_id" value="947102" />
 			    
 				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
-                <a href='index.php' target = '_top'> <input type="button" name="back" value="Back to home"/></a>
+					<a href="index.php">
+                                    <input type="button"  class="button_text"  name="back" value="Back to home"/></a>
 
 				
                                
